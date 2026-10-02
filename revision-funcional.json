@@ -1,0 +1,82 @@
+{
+  "pantalla": "Reabastos SubLPN — Nivel / TopOff (RF)",
+  "fecha": "2026-10-01",
+  "cobertura_hu": "100%",
+  "premisas": [
+    "Bit SubLPN Parcial siempre activo (sin UI de toggle)",
+    "Flujo sobre pantalla de reabastos (tareas + ejecución RF)",
+    "Cualquier valor no vacío se acepta; solo se rechazan campos vacíos"
+  ],
+  "criterios": [
+    {
+      "id": "bit-activo-asumido",
+      "descripcion": "Bit SubLPN Parcial activo por defecto; permite parcializar",
+      "estado": "cubierto"
+    },
+    {
+      "id": "pantalla-tareas",
+      "descripcion": "Ingreso a Tareas y selección de Reabasto Nivel / TopOff",
+      "estado": "cubierto"
+    },
+    {
+      "id": "acepta-cualquier-valor",
+      "descripcion": "Todos los campos RF aceptan cualquier valor no vacío",
+      "estado": "cubierto"
+    },
+    {
+      "id": "lpn-destino",
+      "descripcion": "Ingreso LPN destino",
+      "estado": "cubierto"
+    },
+    {
+      "id": "loc-origen",
+      "descripcion": "Ingreso localidad origen",
+      "estado": "cubierto"
+    },
+    {
+      "id": "lpn-origen",
+      "descripcion": "Ingreso LPN origen",
+      "estado": "cubierto"
+    },
+    {
+      "id": "sublpn-campo",
+      "descripcion": "Campo SubLPN tras LPN; N/NO/- = flujo sin SubLPN",
+      "estado": "cubierto"
+    },
+    {
+      "id": "sublpn-sugerida",
+      "descripcion": "Muestra SubLPN sugerida (editable, cualquier valor válido)",
+      "estado": "cubierto"
+    },
+    {
+      "id": "sublpn-completa",
+      "descripcion": "Prefijo = reabastece SubLPN completa y va a localidad destino",
+      "estado": "cubierto"
+    },
+    {
+      "id": "mas-sublpn",
+      "descripcion": "Tras confirmar destino ofrece otra SubLPN o Esc para terminar",
+      "estado": "cubierto"
+    },
+    {
+      "id": "producto-cantidad-lote",
+      "descripcion": "Producto, cantidad y lote (cualquier valor no vacío)",
+      "estado": "cubierto"
+    },
+    {
+      "id": "loc-destino",
+      "descripcion": "Localidad destino y políticas de asignación",
+      "estado": "cubierto"
+    },
+    {
+      "id": "historico",
+      "descripcion": "Registro en Histórico de Movimientos (consola)",
+      "estado": "cubierto"
+    },
+    {
+      "id": "picking-sublpn",
+      "descripcion": "Parámetro picking SubLPN activo por defecto en payload",
+      "estado": "cubierto"
+    }
+  ]
+}

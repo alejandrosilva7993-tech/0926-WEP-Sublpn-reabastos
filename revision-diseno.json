@@ -1,0 +1,45 @@
+{
+  "pantalla": "Reabastos SubLPN — Nivel / TopOff (RF)",
+  "fecha": "2026-10-01",
+  "referencia_visual": [
+    "0926-wep-acomodo-detalle-sublpn",
+    "Patrón RF WEP: top bar SupplyNet + logo, home indicator"
+  ],
+  "checklist_ux": [
+    {
+      "id": "shell-rf",
+      "descripcion": "Marco móvil 414px, top bar SupplyNet + logo WEP, home indicator",
+      "estado": "ok"
+    },
+    {
+      "id": "flujo-reabastos",
+      "descripcion": "Entrada en Tareas → ejecución RF sin pantalla de parámetros",
+      "estado": "ok"
+    },
+    {
+      "id": "tipografia",
+      "descripcion": "Inter títulos / Roboto cuerpo",
+      "estado": "ok"
+    },
+    {
+      "id": "targets",
+      "descripcion": "Controles ≥ 44px",
+      "estado": "ok"
+    },
+    {
+      "id": "overflow",
+      "descripcion": "overflow-wrap en resúmenes, hints y toasts",
+      "estado": "ok"
+    },
+    {
+      "id": "focus-a11y",
+      "descripcion": "Foco visible, aria-live en toasts",
+      "estado": "ok"
+    },
+    {
+      "id": "estructura-plana",
+      "descripcion": "Recursos en raíz sin carpetas hijas",
+      "estado": "ok"
+    }
+  ]
+}
